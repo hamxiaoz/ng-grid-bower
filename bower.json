@@ -3,7 +3,12 @@
   "author": {
     "name": "https://github.com/angular-ui/ng-grid"
   },
-    
   "version": "2.0.7",
-  "main": "./ng-grid.js"
+  "main": [
+    "./ng-grid.js",
+    "./ng-grid.css"
+  ],
+  "dependencies": {
+    "angular": "*"
+  }
 }
